@@ -6,8 +6,12 @@
     <defName>IoM_Apparel_LeathArmor</defName>
     <description>A heavy leather robe, reinforced with steel.</description>
     <label>armored robe</label>
-    <recipeMaker>
+        <recipeMaker>
       <researchPrerequisite>ComplexClothing</researchPrerequisite>
+      <recipeUsers>
+      <li>ElectricTailoringBench</li>
+      <li>HandTailoringBench</li>
+      </recipeUsers>
     </recipeMaker>
     <graphicData>
       <texPath>Things/IoM/LeatherRobe/LeatherRobe</texPath>
@@ -16,6 +20,7 @@
     </graphicData>
     <costStuffCount>80</costStuffCount>
     <stuffCategories>
+      <li>Fabric</li>
       <li>Leathery</li>
     </stuffCategories>
     <thingCategories>
@@ -27,7 +32,7 @@
     <statBases>
       <MarketValue>600</MarketValue>
       <MaxHitPoints>360</MaxHitPoints>
-      <WorkToMake>90000</WorkToMake>
+      <WorkToMake>650</WorkToMake>
       <ArmorRating_Blunt>0.2</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.2</ArmorRating_Sharp>
       <ArmorRating_Heat>0.1</ArmorRating_Heat>
@@ -275,13 +280,17 @@
     </comps>
   </ThingDef>
 
-  <ThingDef ParentName="ApparelMakeableBase">
+ <ThingDef ParentName="ApparelMakeableBase">
     <thingClass>FactionColors.ApparelComposite</thingClass>
     <defName>IoM_Apparel_RobeGen</defName>
     <description>A simple robe, commonplace in the Galaxy.</description>
     <label>robe</label>
     <recipeMaker>
       <researchPrerequisite>ComplexClothing</researchPrerequisite>
+      <recipeUsers>
+      <li>ElectricTailoringBench</li>
+      <li>HandTailoringBench</li>
+      </recipeUsers>
     </recipeMaker>
     <graphicData>
       <texPath>Things/IoM/RobeGeneric/RobeGeneric</texPath>
@@ -297,10 +306,10 @@
       <li>Apparel</li>
     </thingCategories>
     <tradeability>Sellable</tradeability>
-    <statBases>      
+    <statBases>
 	<MarketValue>50</MarketValue>
       <MaxHitPoints>150</MaxHitPoints>
-      <WorkToMake>50000</WorkToMake>
+      <WorkToMake>500</WorkToMake>
       <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.2</ArmorRating_Sharp>
       <ArmorRating_Heat>0.1</ArmorRating_Heat>
@@ -310,6 +319,7 @@
     <equippedStatOffsets>
       <MoveSpeed>-0.04</MoveSpeed>
     </equippedStatOffsets>
+	<generateCommonality>2</generateCommonality>
     <apparel>
       <bodyPartGroups>
         <li>Torso</li>
@@ -321,7 +331,6 @@
       <layers>
         <li>Shell</li>
       </layers>
-      <commonality>1</commonality>
       <tags>
         <li>IoM_Apparel</li>
       </tags>
@@ -652,7 +661,7 @@
     </colorGenerator>
   </ThingDef>
 
-  <ThingDef ParentName="ApparelMakeableBase">
+ <ThingDef ParentName="ApparelMakeableBase">
     <defName>CoatNoble</defName>
     <label>noble coat</label>
     <description>An embroidered coat with shoulderpads, usually worn by nobles and high ranking officials.</description>
@@ -661,6 +670,13 @@
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+      <recipeUsers>
+      <li>ElectricTailoringBench</li>
+      <li>HandTailoringBench</li>
+      </recipeUsers>
+    </recipeMaker>
     <costStuffCount>70</costStuffCount>
     <stuffCategories>
       <li>Fabric</li>
@@ -671,9 +687,9 @@
     </thingCategories>
     <tradeability>Sellable</tradeability>
     <statBases>
-      <MarketValue>400</MarketValue>
+      <MarketValue>900</MarketValue>
       <MaxHitPoints>120</MaxHitPoints>
-      <WorkToMake>12000</WorkToMake>
+      <WorkToMake>800</WorkToMake>
       <Mass>2.7</Mass>
       <ArmorRating_Sharp>0.09</ArmorRating_Sharp>
       <ArmorRating_Heat>0.04</ArmorRating_Heat>
@@ -682,6 +698,7 @@
     <equippedStatOffsets>
       <MoveSpeed>-0.03</MoveSpeed>
     </equippedStatOffsets>
+	<generateCommonality>1</generateCommonality>
     <apparel>
       <bodyPartGroups>
         <li>Torso</li>
@@ -692,7 +709,6 @@
       <layers>
         <li>Shell</li>
       </layers>
-      <commonality>0.1</commonality>
       <tags>
         <li>Noble</li>
       </tags>
@@ -741,7 +757,7 @@
     </comps>
   </ThingDef>
 
-  <ThingDef ParentName="ApparelMakeableBase">
+ <ThingDef ParentName="ApparelMakeableBase">
     <defName>CoatOfficer</defName>
     <label>officer coat</label>
     <description>An embroidered coat with shoulderpads, usually worn by military officials.</description>
@@ -750,6 +766,13 @@
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
+    <recipeMaker>
+    <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    <recipeUsers>
+      <li>ElectricTailoringBench</li>
+      <li>HandTailoringBench</li>
+    </recipeUsers>
+    </recipeMaker>
     <costStuffCount>70</costStuffCount>
     <stuffCategories>
       <li>Fabric</li>
@@ -762,7 +785,7 @@
     <statBases>
       <MarketValue>400</MarketValue>
       <MaxHitPoints>120</MaxHitPoints>
-      <WorkToMake>12000</WorkToMake>
+      <WorkToMake>600</WorkToMake>
       <Mass>2.7</Mass>
       <ArmorRating_Sharp>0.09</ArmorRating_Sharp>
       <ArmorRating_Heat>0.04</ArmorRating_Heat>
@@ -771,6 +794,7 @@
     <equippedStatOffsets>
       <MoveSpeed>-0.03</MoveSpeed>
     </equippedStatOffsets>
+	<generateCommonality>1</generateCommonality>
     <apparel>
       <bodyPartGroups>
         <li>Torso</li>
@@ -781,7 +805,6 @@
       <layers>
         <li>Shell</li>
       </layers>
-      <commonality>0.1</commonality>
       <tags>
         <li>IoM_Officer</li>
       </tags>
@@ -834,14 +857,18 @@
     <defName>IoM_Apparel_RobeWanderer</defName>
     <description>A simple robe, commonplace in the Galaxy.</description>
     <label>wanderer's robe</label>
-    <recipeMaker>
-      <researchPrerequisite>ComplexClothing</researchPrerequisite>
-    </recipeMaker>
     <graphicData>
       <texPath>Things/IoM/WandererRobe/LC_Icon</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+      <recipeUsers>
+        <li>ElectricTailoringBench</li>
+        <li>HandTailoringBench</li>
+      </recipeUsers>
+    </recipeMaker>
     <costStuffCount>75</costStuffCount>
     <stuffCategories>
       <li>Leathery</li>
@@ -851,10 +878,10 @@
       <li>Apparel</li>
     </thingCategories>
     <tradeability>Sellable</tradeability>
-    <statBases>      
+    <statBases>
 	<MarketValue>50</MarketValue>
       <MaxHitPoints>150</MaxHitPoints>
-      <WorkToMake>50000</WorkToMake>
+      <WorkToMake>500</WorkToMake>
       <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.2</ArmorRating_Sharp>
       <ArmorRating_Heat>0.1</ArmorRating_Heat>
@@ -864,6 +891,7 @@
     <equippedStatOffsets>
       <MoveSpeed>-0.04</MoveSpeed>
     </equippedStatOffsets>
+	<generateCommonality>1</generateCommonality>
     <apparel>
       <bodyPartGroups>
         <li>Torso</li>
@@ -875,7 +903,6 @@
       <layers>
         <li>Shell</li>
       </layers>
-      <commonality>1</commonality>
       <tags>
         <li>IoM_Apparel</li>
       </tags>
