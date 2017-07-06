@@ -9,8 +9,9 @@
 		<description>Your colony gains access to plans for manufacturing advanced tech-components.</description>
 		<baseCost>1000</baseCost>
 		<techLevel>Spacer</techLevel>
+		<tab>Corruption</tab>
 		<researchViewX>0</researchViewX>
-		<researchViewY>100</researchViewY>
+		<researchViewY>1.5</researchViewY>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
@@ -19,8 +20,12 @@
 		<description>Your colony gains access to plans for manufacturing standard issue Imperial gear.</description>
 		<baseCost>1200</baseCost>
 		<techLevel>Spacer</techLevel>
+		<tab>Corruption</tab>
+		<prerequisites>
+			<li>MecTec_AssemblyTable</li>
+		</prerequisites>
 		<researchViewX>0</researchViewX>
-		<researchViewY>101</researchViewY>
+		<researchViewY>2.5</researchViewY>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
@@ -29,8 +34,12 @@
 		<description>Your colony gains access to plans for manufacturing advanced Imperial gear.</description>
 		<baseCost>2500</baseCost>
 		<techLevel>Spacer</techLevel>
-		<researchViewX>0</researchViewX>
-		<researchViewY>102</researchViewY>
+		<tab>Corruption</tab>
+		<prerequisites>
+			<li>MecTec_ManufacturingLicenceI</li>
+		</prerequisites>
+		<researchViewX>1</researchViewX>
+		<researchViewY>2.5</researchViewY>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
@@ -39,8 +48,12 @@
 		<description>Your colony gains access to plans for manufacturing rare Imperial gear.</description>
 		<baseCost>9500</baseCost>
 		<techLevel>Spacer</techLevel>
-		<researchViewX>0</researchViewX>
-		<researchViewY>102</researchViewY>
+		<tab>Corruption</tab>
+		<prerequisites>
+			<li>MecTec_ManufacturingLicenceII</li>
+		</prerequisites>
+		<researchViewX>2</researchViewX>
+		<researchViewY>2.5</researchViewY>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
@@ -49,8 +62,9 @@
 		<description>Your colony gains access to plans for building and maintaining plasma generators.</description>
 		<baseCost>1000</baseCost>
 		<techLevel>Spacer</techLevel>
-		<researchViewX>0</researchViewX>
-		<researchViewY>103</researchViewY>
+		<tab>Corruption</tab>
+		<researchViewX>3</researchViewX>
+		<researchViewY>2.5</researchViewY>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
@@ -59,8 +73,9 @@
 		<description>Your colony gains access to templates for the implants required to make a servitor.</description>
 		<baseCost>1500</baseCost>
 		<techLevel>Spacer</techLevel>
+		<tab>Corruption</tab>
 		<researchViewX>0</researchViewX>
-		<researchViewY>104</researchViewY>
+		<researchViewY>3.5</researchViewY>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
@@ -69,8 +84,9 @@
 		<description>Your colony gains access to templates for building an advanced operating table.</description>
 		<baseCost>2000</baseCost>
 		<techLevel>Spacer</techLevel>
-		<researchViewX>0</researchViewX>
-		<researchViewY>106</researchViewY>
+		<tab>Corruption</tab>
+		<researchViewX>1</researchViewX>
+		<researchViewY>3.5</researchViewY>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
@@ -79,8 +95,9 @@
 		<description>Your colony gains access to templates for manufacturing mechadendrite implants.</description>
 		<baseCost>2000</baseCost>
 		<techLevel>Spacer</techLevel>
-		<researchViewX>0</researchViewX>
-		<researchViewY>107</researchViewY>
+		<tab>Corruption</tab>
+		<researchViewX>2</researchViewX>
+		<researchViewY>3.5</researchViewY>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
@@ -89,8 +106,9 @@
 		<description>Your colony gains access to plans for manufacturing xeno gear.</description>
 		<baseCost>1000</baseCost>
 		<techLevel>Spacer</techLevel>
+		<tab>Corruption</tab>
 		<researchViewX>0</researchViewX>
-		<researchViewY>110</researchViewY>
+		<researchViewY>4.5</researchViewY>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
@@ -99,8 +117,9 @@
 		<description>Your colony gains access to plans for manufacturing xeno gear.</description>
 		<baseCost>1000</baseCost>
 		<techLevel>Spacer</techLevel>
-		<researchViewX>0</researchViewX>
-		<researchViewY>111</researchViewY>
+		<tab>Corruption</tab>
+		<researchViewX>1</researchViewX>
+		<researchViewY>4.5</researchViewY>
 	</ResearchProjectDef>
 
 
