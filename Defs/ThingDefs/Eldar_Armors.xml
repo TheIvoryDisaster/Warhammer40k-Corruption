@@ -7,7 +7,9 @@
     <defName>Eldar_PowerArmor</defName>
     <thingClass>FactionColors.ApparelUniform</thingClass>
     <label>eldar power armor</label>
-    <description>Xenotech armor. May not be used by humans.</description>
+    <description>This flexible set of armored plates is crafted from psycho-sensitive material that yields instantly to the movements of the wearer's unnatural and inhuman physiology.
+
+Xenotech armor. May not be used by humans.</description>
     <techLevel>Spacer</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
@@ -79,7 +81,9 @@
     <defName>Eldar_PowerArmorHelmet</defName>
     <thingClass>FactionColors.ApparelUniform</thingClass>
     <label>eldar power armor helmet</label>
-    <description>A xenotech helmet. Use with care </description>
+    <description>A protective shell of psycho-reactive wraithbone. Commonly inscribed to represent the alien world where it was crafted.
+
+A xenotech helmet. Use with care.</description>
     <techLevel>Spacer</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
@@ -149,7 +153,9 @@
     <defName>Eldar_WarlockRobe</defName>
     <thingClass>FactionColors.ApparelUniform</thingClass>
     <label>eldar warlock robe</label>
-    <description>Xenotech armor. May not be used by humans.</description>
+    <description>An alien garment studded with runes. It's mystical fabrication is rumored to imbue its fine and flowing weave with the ability to turn aside the Imperium's most robust weaponry.
+
+Xenotech armor. May not be used by humans.</description>
     <techLevel>Spacer</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
@@ -217,7 +223,9 @@
     <defName>Eldar_WarlockHelmet</defName>
     <thingClass>FactionColors.ApparelUniform</thingClass>
     <label>eldar warlock helmet</label>
-    <description>A xenotech helmet. Use with care </description>
+    <description>A psychically charged headpiece worn by the witch-foes of the eldar. Its runes bestow the wearer preternatural defenses.
+
+A xenotech helmet. Use with care.</description>
     <techLevel>Spacer</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
@@ -675,7 +683,9 @@
     <defName>Eldar_DAArmor</defName>
     <thingClass>FactionColors.ApparelUniform</thingClass>
     <label>dire avengers power armor</label>
-    <description>Xenotech armor. May not be used by humans.</description>
+    <description>A psychically-reactive set of plates that become rigid upon impact. This armor is the most commonly worn type amongst the Eldar.
+
+Xenotech armor. May not be used by humans.</description>
     <techLevel>Spacer</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
@@ -748,7 +758,9 @@
     <defName>Eldar_DAHelmet</defName>
     <thingClass>FactionColors.ApparelUniform</thingClass>
     <label>dire avenger helmet</label>
-    <description>A xenotech helmet. Use with care </description>
+    <description>A tall, plumed headdress worn by the most numerous of the Imperium's psychic-foes.
+
+A xenotech helmet. Use with care.</description>
     <techLevel>Spacer</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
