@@ -4,7 +4,7 @@
 	<RecipeDef>
     <defName>MakeMecTemplateEnergy</defName>
     <label>make energy template</label>
-    <description>Make a weapon template.</description>
+    <description>Make an energy template.</description>
     <jobString>Creating template.</jobString>
     <workSpeedStat>SmithingSpeed</workSpeedStat>
     <effectWorking>Cook</effectWorking>
@@ -27,7 +27,7 @@
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <MecComponent_General>1</MecComponent_General>
+      <MecComponent_Energy>1</MecComponent_Energy>
     </products>
 		<skillRequirements>
 			<li>
@@ -165,7 +165,7 @@
     <defName>MakeCeramite</defName>
     <label>make ceramite</label>
     <description>Refine metal and minerals extracted from rocks into a more durable composite material.</description>
-    <jobString>Creating armaplas.</jobString>
+    <jobString>Creating ceramite.</jobString>
     <workSpeedStat>SmithingSpeed</workSpeedStat>
     <effectWorking>Smelt</effectWorking>
     <soundWorking>Recipe_Machining</soundWorking>
